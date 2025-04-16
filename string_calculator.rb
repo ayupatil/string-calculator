@@ -8,11 +8,11 @@ class StringCalculator
         end
 
         numbers.gsub!('\n', delimiter)
-
-        if numbers.empty?
-            0
-        else
-            numbers.split(delimiter).map(&:to_i).sum
+        nums = numbers.split(delimiter).map(&:to_i)
+        negatives = nums.select(&:negative?)
+        if negatives.any?
+          raise "Negatives not allowed: #{negatives.join(',')}"
         end
+        nums.sum
       end
   end

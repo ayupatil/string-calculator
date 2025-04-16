@@ -75,3 +75,15 @@ A Ruby implementation of a String Calculator, following TDD principles. Each req
     * Test Result (Pass):
         ![Test Result (Pass)](screenshots/test_custom_delimiters/passed.png)
 
+
+## Requirement 7: Negative Numbers
+
+**Steps:**
+
+1.  Write the Test & Run it
+    * Test Result (Fail):
+        ![Test Result (Fail)](screenshots/test_negative_numbers//failed.png)
+        
+2.  Write the Minimal Code & Run it again
+    * Test Result (Pass):
+        ![Test Result (Pass)](screenshots/test_negative_numbers//passed.png)
