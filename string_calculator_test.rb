@@ -50,4 +50,9 @@ class StringCalculatorTest < Minitest::Test
     assert_equal 6, StringCalculator.add('//[***]\n1***2***3')
     assert_equal 9, StringCalculator.add('//[@@@]\n2@@@3@@@4')
   end
+
+  def test_that_it_allows_multiple_delimiters
+    assert_equal 6, StringCalculator.add('//[*][%]\n1*2%3')
+    assert_equal 10, StringCalculator.add('//[+][;]\n3+2;5')
+  end
 end
