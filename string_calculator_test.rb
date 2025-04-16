@@ -45,4 +45,9 @@ class StringCalculatorTest < Minitest::Test
     assert_equal 1006, StringCalculator.add('1,1000,5')
     assert_equal 6, StringCalculator.add('1,1001,1002,5')
   end
+
+  def test_that_it_supports_arbitrary_length_delimiters
+    assert_equal 6, StringCalculator.add('//[***]\n1***2***3')
+    assert_equal 9, StringCalculator.add('//[@@@]\n2@@@3@@@4')
+  end
 end

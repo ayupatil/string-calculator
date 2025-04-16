@@ -100,3 +100,16 @@ A Ruby implementation of a String Calculator, following TDD principles. Each req
 2.  Write the Minimal Code & Run it again
     * Test Result (Pass):
         ![Test Result (Pass)](screenshots/test_ignore_gt_1000/passed.png)
+
+
+## Requirement 9: Arbitrary Length Delimiters
+
+**Steps:**
+
+1.  Write the Test & Run it
+    * Test Result (Fail):
+        ![Test Result (Fail)](screenshots/test_arbitrary_length_delimiters/failed.png)
+        
+2.  Write the Minimal Code & Run it again
+    * Test Result (Pass):
+        ![Test Result (Pass)](screenshots/test_arbitrary_length_delimiters/passed.png)
