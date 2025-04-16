@@ -39,3 +39,12 @@ A Ruby implementation of a String Calculator, following TDD principles. Each req
 2.  Write the Minimal Code & Run it again
     * Test Result (Pass):
         ![Test Result (Pass)](screenshots/test_two_numbers/passed.png)
+
+
+## Requirement 4: Unknown Amount of Numbers
+
+**Steps:**
+
+1.  Write the Test & Run it
+    * Test Result (Pass):
+        ![Test Result (Pass)](screenshots/test_unknown_amount_of_numbers/passed.png)

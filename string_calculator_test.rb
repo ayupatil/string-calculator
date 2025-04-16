@@ -15,4 +15,9 @@ class StringCalculatorTest < Minitest::Test
     assert_equal 3, StringCalculator.add('1,2')
     assert_equal 10, StringCalculator.add('3,7')
   end
+
+  def test_that_it_can_handle_an_unknown_amount_of_numbers
+    assert_equal 6, StringCalculator.add('1,2,3')
+    assert_equal 15, StringCalculator.add('1,2,3,4,5')
+  end
 end
