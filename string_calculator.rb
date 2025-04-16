@@ -1,5 +1,11 @@
 class StringCalculator
     def self.add(numbers)
-        numbers.empty? ? 0 : numbers.to_i
+        if numbers.empty?
+            0
+          elsif numbers.include?(',')
+            numbers.split(',').map(&:to_i).sum
+          else
+            numbers.to_i
+          end
       end
   end

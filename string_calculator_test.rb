@@ -10,4 +10,9 @@ class StringCalculatorTest < Minitest::Test
     assert_equal 5, StringCalculator.add('5')
     assert_equal 17, StringCalculator.add('17')
   end
+
+  def test_that_two_comma_separated_numbers_should_return_their_sum
+    assert_equal 3, StringCalculator.add('1,2')
+    assert_equal 10, StringCalculator.add('3,7')
+  end
 end

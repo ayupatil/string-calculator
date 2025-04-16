@@ -26,3 +26,16 @@ A Ruby implementation of a String Calculator, following TDD principles. Each req
 2.  Write the Minimal Code & Run it again
     * Test Result (Pass):
         ![Test Result (Pass)](screenshots/test_single_number/passed.png)
+        
+        
+## Requirement 3: Two Numbers
+
+**Steps:**
+
+1.  Write the Test & Run it
+    * Test Result (Fail):
+        ![Test Result (Fail)](screenshots/test_two_numbers/failed.png)
+        
+2.  Write the Minimal Code & Run it again
+    * Test Result (Pass):
+        ![Test Result (Pass)](screenshots/test_two_numbers/passed.png)
