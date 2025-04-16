@@ -82,8 +82,21 @@ A Ruby implementation of a String Calculator, following TDD principles. Each req
 
 1.  Write the Test & Run it
     * Test Result (Fail):
-        ![Test Result (Fail)](screenshots/test_negative_numbers//failed.png)
+        ![Test Result (Fail)](screenshots/test_negative_numbers/failed.png)
         
 2.  Write the Minimal Code & Run it again
     * Test Result (Pass):
-        ![Test Result (Pass)](screenshots/test_negative_numbers//passed.png)
+        ![Test Result (Pass)](screenshots/test_negative_numbers/passed.png)
+
+
+## Requirement 8: Numbers Greater Than 1000 Should Be Ignored
+
+**Steps:**
+
+1.  Write the Test & Run it
+    * Test Result (Fail):
+        ![Test Result (Fail)](screenshots/test_ignore_gt_1000/failed.png)
+        
+2.  Write the Minimal Code & Run it again
+    * Test Result (Pass):
+        ![Test Result (Pass)](screenshots/test_ignore_gt_1000/passed.png)
