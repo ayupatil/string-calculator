@@ -127,3 +127,11 @@ A Ruby implementation of a String Calculator, following TDD principles. Each req
     * Test Result (Pass):
         ![Test Result (Pass)](screenshots/test_multiple_delimiters/passed.png)
 
+
+## Requirement 11: Multiple Arbitrary Length Delimiters
+
+**Steps:**
+
+1.  Write the Test & Run it
+    * Test Result (Pass):
+        ![Test Result (Pass)](screenshots/test_multiple_arbitrary_length_delimiters/passed.png)
