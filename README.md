@@ -48,3 +48,17 @@ A Ruby implementation of a String Calculator, following TDD principles. Each req
 1.  Write the Test & Run it
     * Test Result (Pass):
         ![Test Result (Pass)](screenshots/test_unknown_amount_of_numbers/passed.png)
+        
+        
+## Requirement 5: New Lines as Separators
+
+**Steps:**
+
+1.  Write the Test & Run it
+    * Test Result (Fail):
+        ![Test Result (Fail)](screenshots/test_new_lines_seperator/failed.png)
+        
+2.  Write the Minimal Code & Run it again
+    * Test Result (Pass):
+        ![Test Result (Pass)](screenshots/test_new_lines_seperator/passed.png)
+

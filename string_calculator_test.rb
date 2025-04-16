@@ -20,4 +20,9 @@ class StringCalculatorTest < Minitest::Test
     assert_equal 6, StringCalculator.add('1,2,3')
     assert_equal 15, StringCalculator.add('1,2,3,4,5')
   end
+
+  def test_that_it_allows_new_lines_as_separators
+    assert_equal 6, StringCalculator.add('1\n2,3')
+    assert_equal 8, StringCalculator.add('1\n2\n5')
+  end
 end
